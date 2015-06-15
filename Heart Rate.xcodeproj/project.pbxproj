@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD3DCA71B2F617F0032A433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DCA61B2F617F0032A433 /* AppDelegate.swift */; };
+		EFD3DCA91B2F617F0032A433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DCA81B2F617F0032A433 /* ViewController.swift */; };
+		EFD3DCAC1B2F617F0032A433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCAA1B2F617F0032A433 /* Main.storyboard */; };
+		EFD3DCAE1B2F617F0032A433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCAD1B2F617F0032A433 /* Images.xcassets */; };
+		EFD3DCB11B2F617F0032A433 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCAF1B2F617F0032A433 /* LaunchScreen.xib */; };
+		EFD3DCBD1B2F617F0032A433 /* Heart_RateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DCBC1B2F617F0032A433 /* Heart_RateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD3DCB71B2F617F0032A433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD3DC991B2F617F0032A433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD3DCA01B2F617F0032A433;
+			remoteInfo = "Heart Rate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD3DCA11B2F617F0032A433 /* Heart Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3DCA51B2F617F0032A433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD3DCA61B2F617F0032A433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFD3DCA81B2F617F0032A433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFD3DCAB1B2F617F0032A433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD3DCAD1B2F617F0032A433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD3DCB01B2F617F0032A433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFD3DCB61B2F617F0032A433 /* Heart RateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heart RateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3DCBB1B2F617F0032A433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD3DCBC1B2F617F0032A433 /* Heart_RateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_RateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD3DC9E1B2F617F0032A433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DCB31B2F617F0032A433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD3DC981B2F617F0032A433 = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCA31B2F617F0032A433 /* Heart Rate */,
+				EFD3DCB91B2F617F0032A433 /* Heart RateTests */,
+				EFD3DCA21B2F617F0032A433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD3DCA21B2F617F0032A433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCA11B2F617F0032A433 /* Heart Rate.app */,
+				EFD3DCB61B2F617F0032A433 /* Heart RateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD3DCA31B2F617F0032A433 /* Heart Rate */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCA61B2F617F0032A433 /* AppDelegate.swift */,
+				EFD3DCA81B2F617F0032A433 /* ViewController.swift */,
+				EFD3DCAA1B2F617F0032A433 /* Main.storyboard */,
+				EFD3DCAD1B2F617F0032A433 /* Images.xcassets */,
+				EFD3DCAF1B2F617F0032A433 /* LaunchScreen.xib */,
+				EFD3DCA41B2F617F0032A433 /* Supporting Files */,
+			);
+			path = "Heart Rate";
+			sourceTree = "<group>";
+		};
+		EFD3DCA41B2F617F0032A433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCA51B2F617F0032A433 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD3DCB91B2F617F0032A433 /* Heart RateTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCBC1B2F617F0032A433 /* Heart_RateTests.swift */,
+				EFD3DCBA1B2F617F0032A433 /* Supporting Files */,
+			);
+			path = "Heart RateTests";
+			sourceTree = "<group>";
+		};
+		EFD3DCBA1B2F617F0032A433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCBB1B2F617F0032A433 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD3DCA01B2F617F0032A433 /* Heart Rate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD3DCC01B2F617F0032A433 /* Build configuration list for PBXNativeTarget "Heart Rate" */;
+			buildPhases = (
+				EFD3DC9D1B2F617F0032A433 /* Sources */,
+				EFD3DC9E1B2F617F0032A433 /* Frameworks */,
+				EFD3DC9F1B2F617F0032A433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heart Rate";
+			productName = "Heart Rate";
+			productReference = EFD3DCA11B2F617F0032A433 /* Heart Rate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD3DCB51B2F617F0032A433 /* Heart RateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD3DCC31B2F617F0032A433 /* Build configuration list for PBXNativeTarget "Heart RateTests" */;
+			buildPhases = (
+				EFD3DCB21B2F617F0032A433 /* Sources */,
+				EFD3DCB31B2F617F0032A433 /* Frameworks */,
+				EFD3DCB41B2F617F0032A433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD3DCB81B2F617F0032A433 /* PBXTargetDependency */,
+			);
+			name = "Heart RateTests";
+			productName = "Heart RateTests";
+			productReference = EFD3DCB61B2F617F0032A433 /* Heart RateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD3DC991B2F617F0032A433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Graham Wright";
+				TargetAttributes = {
+					EFD3DCA01B2F617F0032A433 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EFD3DCB51B2F617F0032A433 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EFD3DCA01B2F617F0032A433;
+					};
+				};
+			};
+			buildConfigurationList = EFD3DC9C1B2F617F0032A433 /* Build configuration list for PBXProject "Heart Rate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD3DC981B2F617F0032A433;
+			productRefGroup = EFD3DCA21B2F617F0032A433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD3DCA01B2F617F0032A433 /* Heart Rate */,
+				EFD3DCB51B2F617F0032A433 /* Heart RateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD3DC9F1B2F617F0032A433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DCAC1B2F617F0032A433 /* Main.storyboard in Resources */,
+				EFD3DCB11B2F617F0032A433 /* LaunchScreen.xib in Resources */,
+				EFD3DCAE1B2F617F0032A433 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DCB41B2F617F0032A433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD3DC9D1B2F617F0032A433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DCA91B2F617F0032A433 /* ViewController.swift in Sources */,
+				EFD3DCA71B2F617F0032A433 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DCB21B2F617F0032A433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DCBD1B2F617F0032A433 /* Heart_RateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD3DCB81B2F617F0032A433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD3DCA01B2F617F0032A433 /* Heart Rate */;
+			targetProxy = EFD3DCB71B2F617F0032A433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD3DCAA1B2F617F0032A433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD3DCAB1B2F617F0032A433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD3DCAF1B2F617F0032A433 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD3DCB01B2F617F0032A433 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD3DCBE1B2F617F0032A433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFD3DCBF1B2F617F0032A433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD3DCC11B2F617F0032A433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Heart Rate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD3DCC21B2F617F0032A433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Heart Rate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFD3DCC41B2F617F0032A433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Heart RateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heart Rate.app/Heart Rate";
+			};
+			name = Debug;
+		};
+		EFD3DCC51B2F617F0032A433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Heart RateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heart Rate.app/Heart Rate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD3DC9C1B2F617F0032A433 /* Build configuration list for PBXProject "Heart Rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3DCBE1B2F617F0032A433 /* Debug */,
+				EFD3DCBF1B2F617F0032A433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD3DCC01B2F617F0032A433 /* Build configuration list for PBXNativeTarget "Heart Rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3DCC11B2F617F0032A433 /* Debug */,
+				EFD3DCC21B2F617F0032A433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFD3DCC31B2F617F0032A433 /* Build configuration list for PBXNativeTarget "Heart RateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3DCC41B2F617F0032A433 /* Debug */,
+				EFD3DCC51B2F617F0032A433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD3DC991B2F617F0032A433 /* Project object */;
+}
