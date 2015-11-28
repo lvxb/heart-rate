@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Heart_Rate_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="left" image="heart" id="CBg-kZ-DaU"/>
+                        <group width="1" alignment="left" id="Q61-tR-63W">
+                            <items>
+                                <label alignment="left" text="Heart Rate" id="WDN-17-2sT">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="xNQ-Ee-ikS" kind="relationship" relationship="nextPage" id="jzI-8R-aso"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="204" y="343"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="xrM-e6-544">
+            <objects>
+                <controller id="xNQ-Ee-ikS">
+                    <items>
+                        <imageView alignment="left" image="heart" id="hqd-cj-2es"/>
+                        <label alignment="left" text="Measuring..." id="fdM-hy-yZ7">
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label alignment="left" text="65 BPM, 5m ago" id="wea-db-Eqi">
+                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <segue destination="a0j-lL-kES" kind="relationship" relationship="nextPage" id="XXl-6L-JT8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="388" y="343"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="S1d-zL-Odq">
+            <objects>
+                <controller id="Cv1-Un-Xlh">
+                    <items>
+                        <imageView alignment="left" image="heart" id="BI2-nl-fnl"/>
+                        <group width="1" alignment="left" id="meI-ou-1l7">
+                            <items>
+                                <label alignment="left" text="180" id="3YW-Vp-ol8">
+                                    <fontDescription key="font" type="system" pointSize="34"/>
+                                </label>
+                                <label height="32.5" alignment="left" text="BPM" id="S4e-cg-dmV">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <label alignment="left" text="45 BPM, 5m ago" id="swr-G2-rjg">
+                            <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <segue destination="vpV-Pe-upB" kind="relationship" relationship="nextPage" id="QuL-TM-Rec"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="768" y="343"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Tvv-Mx-EhN">
+            <objects>
+                <controller id="vpV-Pe-upB">
+                    <items>
+                        <group width="1" alignment="left" id="RtL-9G-dHL">
+                            <items>
+                                <imageView alignment="left" image="heart_x" id="Z3X-JL-3HS"/>
+                                <imageView width="37" height="36" alignment="right" verticalAlignment="bottom" image="coffee" id="0Cl-7N-aLM"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="Too stressed to measure, go and take a break and have a coffee!" numberOfLines="4" id="x8e-kU-Gq9"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="968" y="343"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="2bg-Fq-E5v">
+            <objects>
+                <controller id="a0j-lL-kES">
+                    <items>
+                        <imageView alignment="left" image="heart" id="cwI-0q-08p"/>
+                        <group width="1" height="41" alignment="left" id="Vgl-h1-pKs">
+                            <items>
+                                <label alignment="left" text="45" id="432-BJ-wLY">
+                                    <fontDescription key="font" type="system" pointSize="34"/>
+                                </label>
+                                <label height="30.5" alignment="left" text="BPM" id="ik3-ke-69T">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <label alignment="left" text="180 BPM, 5m ago" id="054-4t-amo">
+                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <segue destination="Cv1-Un-Xlh" kind="relationship" relationship="nextPage" id="gBB-vp-tEv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="578" y="343"/>
+        </scene>
+    </scenes>
+</document>

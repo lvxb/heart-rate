@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EFD3DCD31B2F618C0032A433"
+               BuildableName = "Heart Rate WatchKit App.app"
+               BlueprintName = "Heart Rate WatchKit App"
+               ReferencedContainer = "container:Heart Rate.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "EFD3DCA01B2F617F0032A433"
                BuildableName = "Heart Rate.app"
                BlueprintName = "Heart Rate"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EFD3DCB51B2F617F0032A433"
-               BuildableName = "Heart RateTests.xctest"
-               BlueprintName = "Heart RateTests"
+               BlueprintIdentifier = "EFD3DCC91B2F618C0032A433"
+               BuildableName = "Heart Rate WatchKit Extension.appex"
+               BlueprintName = "Heart Rate WatchKit Extension"
                ReferencedContainer = "container:Heart Rate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EFD3DCB51B2F617F0032A433"
-               BuildableName = "Heart RateTests.xctest"
-               BlueprintName = "Heart RateTests"
-               ReferencedContainer = "container:Heart Rate.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EFD3DCA01B2F617F0032A433"
-            BuildableName = "Heart Rate.app"
-            BlueprintName = "Heart Rate"
+            BlueprintIdentifier = "EFD3DCD31B2F618C0032A433"
+            BuildableName = "Heart Rate WatchKit App.app"
+            BlueprintName = "Heart Rate WatchKit App"
             ReferencedContainer = "container:Heart Rate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Heart Rate">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EFD3DCA01B2F617F0032A433"
-            BuildableName = "Heart Rate.app"
-            BlueprintName = "Heart Rate"
+            BlueprintIdentifier = "EFD3DCD31B2F618C0032A433"
+            BuildableName = "Heart Rate WatchKit App.app"
+            BlueprintName = "Heart Rate WatchKit App"
             ReferencedContainer = "container:Heart Rate.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EFD3DCD31B2F618C0032A433"
+            BuildableName = "Heart Rate WatchKit App.app"
+            BlueprintName = "Heart Rate WatchKit App"
+            ReferencedContainer = "container:Heart Rate.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Heart Rate">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EFD3DCA01B2F617F0032A433"
-            BuildableName = "Heart Rate.app"
-            BlueprintName = "Heart Rate"
+            BlueprintIdentifier = "EFD3DCD31B2F618C0032A433"
+            BuildableName = "Heart Rate WatchKit App.app"
+            BlueprintName = "Heart Rate WatchKit App"
             ReferencedContainer = "container:Heart Rate.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EFD3DCD31B2F618C0032A433"
+            BuildableName = "Heart Rate WatchKit App.app"
+            BlueprintName = "Heart Rate WatchKit App"
+            ReferencedContainer = "container:Heart Rate.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -13,6 +13,12 @@
 		EFD3DCAE1B2F617F0032A433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCAD1B2F617F0032A433 /* Images.xcassets */; };
 		EFD3DCB11B2F617F0032A433 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCAF1B2F617F0032A433 /* LaunchScreen.xib */; };
 		EFD3DCBD1B2F617F0032A433 /* Heart_RateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DCBC1B2F617F0032A433 /* Heart_RateTests.swift */; };
+		EFD3DCCF1B2F618C0032A433 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DCCE1B2F618C0032A433 /* InterfaceController.swift */; };
+		EFD3DCD11B2F618C0032A433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCD01B2F618C0032A433 /* Images.xcassets */; };
+		EFD3DCD51B2F618C0032A433 /* Heart Rate WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCD41B2F618C0032A433 /* Heart Rate WatchKit App.app */; };
+		EFD3DCDD1B2F618C0032A433 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCDB1B2F618C0032A433 /* Interface.storyboard */; };
+		EFD3DCDF1B2F618C0032A433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD3DCDE1B2F618C0032A433 /* Images.xcassets */; };
+		EFD3DCE21B2F618C0032A433 /* Heart Rate WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EFD3DCCA1B2F618C0032A433 /* Heart Rate WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = EFD3DCA01B2F617F0032A433;
 			remoteInfo = "Heart Rate";
 		};
+		EFD3DCD61B2F618C0032A433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD3DC991B2F617F0032A433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD3DCD31B2F618C0032A433;
+			remoteInfo = "Heart Rate WatchKit App";
+		};
+		EFD3DCE01B2F618C0032A433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD3DC991B2F617F0032A433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD3DCC91B2F618C0032A433;
+			remoteInfo = "Heart Rate WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFD3DCE91B2F618C0032A433 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EFD3DCE21B2F618C0032A433 /* Heart Rate WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EFD3DCA11B2F617F0032A433 /* Heart Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		EFD3DCB61B2F617F0032A433 /* Heart RateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heart RateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD3DCBB1B2F617F0032A433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFD3DCBC1B2F617F0032A433 /* Heart_RateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_RateTests.swift; sourceTree = "<group>"; };
+		EFD3DCCA1B2F618C0032A433 /* Heart Rate WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Heart Rate WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3DCCD1B2F618C0032A433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD3DCCE1B2F618C0032A433 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EFD3DCD01B2F618C0032A433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD3DCD41B2F618C0032A433 /* Heart Rate WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3DCDA1B2F618C0032A433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD3DCDC1B2F618C0032A433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EFD3DCDE1B2F618C0032A433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD3DCC71B2F618C0032A433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				EFD3DCA31B2F617F0032A433 /* Heart Rate */,
 				EFD3DCB91B2F617F0032A433 /* Heart RateTests */,
+				EFD3DCCB1B2F618C0032A433 /* Heart Rate WatchKit Extension */,
+				EFD3DCD81B2F618C0032A433 /* Heart Rate WatchKit App */,
 				EFD3DCA21B2F617F0032A433 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				EFD3DCA11B2F617F0032A433 /* Heart Rate.app */,
 				EFD3DCB61B2F617F0032A433 /* Heart RateTests.xctest */,
+				EFD3DCCA1B2F618C0032A433 /* Heart Rate WatchKit Extension.appex */,
+				EFD3DCD41B2F618C0032A433 /* Heart Rate WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EFD3DCCB1B2F618C0032A433 /* Heart Rate WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCCE1B2F618C0032A433 /* InterfaceController.swift */,
+				EFD3DCD01B2F618C0032A433 /* Images.xcassets */,
+				EFD3DCCC1B2F618C0032A433 /* Supporting Files */,
+			);
+			path = "Heart Rate WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EFD3DCCC1B2F618C0032A433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCCD1B2F618C0032A433 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD3DCD81B2F618C0032A433 /* Heart Rate WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCDB1B2F618C0032A433 /* Interface.storyboard */,
+				EFD3DCDE1B2F618C0032A433 /* Images.xcassets */,
+				EFD3DCD91B2F618C0032A433 /* Supporting Files */,
+			);
+			path = "Heart Rate WatchKit App";
+			sourceTree = "<group>";
+		};
+		EFD3DCD91B2F618C0032A433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DCDA1B2F618C0032A433 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				EFD3DC9D1B2F617F0032A433 /* Sources */,
 				EFD3DC9E1B2F617F0032A433 /* Frameworks */,
 				EFD3DC9F1B2F617F0032A433 /* Resources */,
+				EFD3DCE91B2F618C0032A433 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EFD3DCE11B2F618C0032A433 /* PBXTargetDependency */,
 			);
 			name = "Heart Rate";
 			productName = "Heart Rate";
@@ -150,12 +241,46 @@
 			productReference = EFD3DCB61B2F617F0032A433 /* Heart RateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EFD3DCC91B2F618C0032A433 /* Heart Rate WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD3DCE61B2F618C0032A433 /* Build configuration list for PBXNativeTarget "Heart Rate WatchKit Extension" */;
+			buildPhases = (
+				EFD3DCC61B2F618C0032A433 /* Sources */,
+				EFD3DCC71B2F618C0032A433 /* Frameworks */,
+				EFD3DCC81B2F618C0032A433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD3DCD71B2F618C0032A433 /* PBXTargetDependency */,
+			);
+			name = "Heart Rate WatchKit Extension";
+			productName = "Heart Rate WatchKit Extension";
+			productReference = EFD3DCCA1B2F618C0032A433 /* Heart Rate WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		EFD3DCD31B2F618C0032A433 /* Heart Rate WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD3DCE31B2F618C0032A433 /* Build configuration list for PBXNativeTarget "Heart Rate WatchKit App" */;
+			buildPhases = (
+				EFD3DCD21B2F618C0032A433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heart Rate WatchKit App";
+			productName = "Heart Rate WatchKit App";
+			productReference = EFD3DCD41B2F618C0032A433 /* Heart Rate WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		EFD3DC991B2F617F0032A433 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Graham Wright";
 				TargetAttributes = {
@@ -165,6 +290,13 @@
 					EFD3DCB51B2F617F0032A433 = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = EFD3DCA01B2F617F0032A433;
+					};
+					EFD3DCC91B2F618C0032A433 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EFD3DCD31B2F618C0032A433 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 25SLN5A3GL;
 					};
 				};
 			};
@@ -183,6 +315,8 @@
 			targets = (
 				EFD3DCA01B2F617F0032A433 /* Heart Rate */,
 				EFD3DCB51B2F617F0032A433 /* Heart RateTests */,
+				EFD3DCC91B2F618C0032A433 /* Heart Rate WatchKit Extension */,
+				EFD3DCD31B2F618C0032A433 /* Heart Rate WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +336,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DCC81B2F618C0032A433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DCD51B2F618C0032A433 /* Heart Rate WatchKit App.app in Resources */,
+				EFD3DCD11B2F618C0032A433 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DCD21B2F618C0032A433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DCDD1B2F618C0032A433 /* Interface.storyboard in Resources */,
+				EFD3DCDF1B2F618C0032A433 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +377,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD3DCC61B2F618C0032A433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DCCF1B2F618C0032A433 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +392,16 @@
 			isa = PBXTargetDependency;
 			target = EFD3DCA01B2F617F0032A433 /* Heart Rate */;
 			targetProxy = EFD3DCB71B2F617F0032A433 /* PBXContainerItemProxy */;
+		};
+		EFD3DCD71B2F618C0032A433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD3DCD31B2F618C0032A433 /* Heart Rate WatchKit App */;
+			targetProxy = EFD3DCD61B2F618C0032A433 /* PBXContainerItemProxy */;
+		};
+		EFD3DCE11B2F618C0032A433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD3DCC91B2F618C0032A433 /* Heart Rate WatchKit Extension */;
+			targetProxy = EFD3DCE01B2F618C0032A433 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +420,14 @@
 				EFD3DCB01B2F617F0032A433 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EFD3DCDB1B2F618C0032A433 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD3DCDC1B2F618C0032A433 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +568,68 @@
 			};
 			name = Release;
 		};
+		EFD3DCE41B2F618C0032A433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Heart_Rate_WatchKit_Extension;
+				INFOPLIST_FILE = "Heart Rate WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		EFD3DCE51B2F618C0032A433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = Heart_Rate_WatchKit_Extension;
+				INFOPLIST_FILE = "Heart Rate WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		EFD3DCE71B2F618C0032A433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Heart Rate WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EFD3DCE81B2F618C0032A433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Heart Rate WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +649,7 @@
 				EFD3DCC21B2F617F0032A433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFD3DCC31B2F617F0032A433 /* Build configuration list for PBXNativeTarget "Heart RateTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +658,25 @@
 				EFD3DCC51B2F617F0032A433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD3DCE31B2F618C0032A433 /* Build configuration list for PBXNativeTarget "Heart Rate WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3DCE41B2F618C0032A433 /* Debug */,
+				EFD3DCE51B2F618C0032A433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD3DCE61B2F618C0032A433 /* Build configuration list for PBXNativeTarget "Heart Rate WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3DCE71B2F618C0032A433 /* Debug */,
+				EFD3DCE81B2F618C0032A433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
